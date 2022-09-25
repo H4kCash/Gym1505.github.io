@@ -59,12 +59,12 @@ body{
 	
 .content h1{
 	font-size: 50px;
-	margin-top: 70px;
+	margin-top: 250px;
 	line-height: 20px;
 	text-shadow: 0 0 20px #fff;
 }
 .content p{
-	margin: 20px auto;
+	margin: 20px auto 5em;
 	font-weight: 100;
 	line-height: 25px;
 }
@@ -74,14 +74,7 @@ body{
 	margin-right: auto;
     border-spacing: 30px 20px;
 }
-.content table, td, th{
-    border: 2px solid black;
-}
-
 .content th{
 	color: #28d17f;
-}
-.content td{
-	color: #138fe8;
-	
+    font-size: 25px;
 }
