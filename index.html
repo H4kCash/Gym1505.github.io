@@ -56,15 +56,16 @@
 
 			<script type="text/javascript">
 				var counter = 1;
+				var time = 5000;
 				setInterval(function(){
 					document.getElementById("radio" + counter).checked = true;
 					counter++;
 					if(counter > 4){
 						counter = 1;
 					}
-				}, 5000);
+				}, time);
 				document.getElementById("radio").onclick = function(){
-					setTimeout(counter, 3000);
+					setTimeout(counter, 5000);
 				}
 			</script>
 
