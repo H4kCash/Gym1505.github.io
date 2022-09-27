@@ -84,7 +84,7 @@ body{
     justify-content: center;
 }
 .btn-user{
-    border: 2px solid #475aff;
+    border: 2px solid #3ac5f0;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -94,7 +94,7 @@ body{
     margin-right: 50px;
 }
 .btn-user:hover{
-    background-color: #475aff;
+    background-color: #3ac5f0;
 }
 
 #radio1:checked ~ .first{
@@ -108,6 +108,40 @@ body{
 }
 #radio4:checked ~ .first{
     margin-left: -60%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 960px;
+    justify-content: center;
+    margin-top: 320px;
+    margin-left: -10px; 
+
+}
+
+.navigation-auto div{
+    border: 2px solid #3ac5f0;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.75s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 50px;
+}
+
+#radio1:checked ~ .navigation-auto .btn1-auto{
+    background-color: #3ac5f0;
+}
+#radio2:checked ~ .navigation-auto .btn2-auto{
+    background-color: #3ac5f0;
+}
+#radio3:checked ~ .navigation-auto .btn3-auto{
+    background-color: #3ac5f0;
+}
+#radio4:checked ~ .navigation-auto .btn4-auto{
+    background-color: #3ac5f0;
 }
 
 .content{
